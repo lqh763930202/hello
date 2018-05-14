@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container"  wx:for="{{list}}" wx:for-item="info" wx:key="id">
+ <text class="user-motto">{{info.articleCategory}}</text>
+ <text class="user-motto">{{info.articleTitle}}</text>
+ <text class="user-motto">{{info.articleKeyword}}</text>
+ <text class="user-motto">########</text>
+</view>
